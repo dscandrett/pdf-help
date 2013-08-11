@@ -75,19 +75,6 @@
 					<key>promptMessage</key>
 					<string>Choose a PDF to export each page as an image:</string>
 				</dict>
-				<key>ActionRuntimeParameters</key>
-				<dict>
-					<key>defaultLocation</key>
-					<string>/Users/doug/Desktop</string>
-					<key>granularity</key>
-					<integer>0</integer>
-					<key>multipleSelection</key>
-					<false/>
-					<key>promptMessage</key>
-					<string>Choose a PDF to export each page as an image:</string>
-					<key>temporary items path</key>
-					<string>/var/folders/d8/fsdc1k3s5v18738_c2hbzxs80000gq/T/EB406668-FC25-454B-8041-94A3A2818FDB/1/com.apple.Automator.AskForFinderItems</string>
-				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.AskForFinderItems</string>
 				<key>CFBundleVersion</key>
@@ -177,12 +164,10 @@
 						<string>3</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.500000:941.000000</string>
+				<string>309.500000:761.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -204,7 +189,7 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>409.2</string>
+				<string>409.3</string>
 				<key>AMApplication</key>
 				<array>
 					<string>PDF</string>
@@ -249,23 +234,10 @@
 					<key>resolution</key>
 					<string>300</string>
 				</dict>
-				<key>ActionRuntimeParameters</key>
-				<dict>
-					<key>colorModel</key>
-					<integer>0</integer>
-					<key>compression</key>
-					<real>1</real>
-					<key>imageFormat</key>
-					<string>public.png</string>
-					<key>resolution</key>
-					<string>300</string>
-					<key>temporary items path</key>
-					<string>/var/folders/d8/fsdc1k3s5v18738_c2hbzxs80000gq/T/EB406668-FC25-454B-8041-94A3A2818FDB/1/com.apple.action.imagepdf</string>
-				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.action.imagepdf</string>
 				<key>CFBundleVersion</key>
-				<string>409.2</string>
+				<string>409.3</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<false/>
 				<key>CanShowWhenRun</key>
@@ -346,8 +318,6 @@
 						<string>3</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
@@ -478,55 +448,6 @@
 					<integer>0</integer>
 					<key>startingNumber</key>
 					<integer>1</integer>
-					<key>textInput</key>
-					<string></string>
-					<key>textToFind</key>
-					<string></string>
-					<key>useLeadingZeros</key>
-					<false/>
-				</dict>
-				<key>ActionRuntimeParameters</key>
-				<dict>
-					<key>caseIndicator</key>
-					<integer>0</integer>
-					<key>dateFormat</key>
-					<string>0</string>
-					<key>datePlacement</key>
-					<integer>0</integer>
-					<key>dateSeparator</key>
-					<string>0</string>
-					<key>dateToUse</key>
-					<integer>0</integer>
-					<key>defaultName</key>
-					<string></string>
-					<key>ignoreCase</key>
-					<true/>
-					<key>includeExtensions</key>
-					<integer>0</integer>
-					<key>insertionPosition</key>
-					<integer>0</integer>
-					<key>minimumCount</key>
-					<string>2</string>
-					<key>nameDateSeparator</key>
-					<integer>0</integer>
-					<key>nameSingleItem</key>
-					<string></string>
-					<key>numberLocation</key>
-					<integer>1</integer>
-					<key>numberSeparator</key>
-					<integer>3</integer>
-					<key>renameItems</key>
-					<integer>0</integer>
-					<key>renameType</key>
-					<integer>3</integer>
-					<key>replaceWithText</key>
-					<string></string>
-					<key>singleItemOption</key>
-					<integer>0</integer>
-					<key>startingNumber</key>
-					<integer>1</integer>
-					<key>temporary items path</key>
-					<string>/var/folders/d8/fsdc1k3s5v18738_c2hbzxs80000gq/T/EB406668-FC25-454B-8041-94A3A2818FDB/1/com.apple.Automator.AddNumbersToFinderNames</string>
 					<key>textInput</key>
 					<string></string>
 					<key>textToFind</key>
@@ -866,8 +787,6 @@
 						<string>9</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
@@ -930,15 +849,6 @@
 					<key>toDirectory</key>
 					<string>~/Desktop</string>
 				</dict>
-				<key>ActionRuntimeParameters</key>
-				<dict>
-					<key>replaceExisting</key>
-					<false/>
-					<key>temporary items path</key>
-					<string>/var/folders/d8/fsdc1k3s5v18738_c2hbzxs80000gq/T/EB406668-FC25-454B-8041-94A3A2818FDB/1/com.apple.Automator.MoveFiles</string>
-					<key>toDirectory</key>
-					<string>/Users/doug/Desktop</string>
-				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.MoveFiles</string>
 				<key>CFBundleVersion</key>
@@ -997,8 +907,6 @@
 						<string>1</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
@@ -1048,11 +956,6 @@
 				<string>Reveal Finder Items</string>
 				<key>ActionParameters</key>
 				<dict/>
-				<key>ActionRuntimeParameters</key>
-				<dict>
-					<key>temporary items path</key>
-					<string>/var/folders/d8/fsdc1k3s5v18738_c2hbzxs80000gq/T/EB406668-FC25-454B-8041-94A3A2818FDB/1/com.apple.Automator.Reveal_Finder_Items</string>
-				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.Reveal_Finder_Items</string>
 				<key>CFBundleVersion</key>
@@ -1085,35 +988,33 @@
 				</array>
 				<key>arguments</key>
 				<dict/>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 			</dict>
 		</dict>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>2D940A44-8D25-4DC8-8703-692B85373046</key>
+		<key>1680ED13-7B97-4027-BD4B-F2092D4C5ACD</key>
 		<dict>
 			<key>from</key>
 			<string>EE3B90DE-2B57-408B-8853-94D8288763D5 - EE3B90DE-2B57-408B-8853-94D8288763D5</string>
 			<key>to</key>
 			<string>070221E8-C97D-4B02-96F5-B400CDF4C6E4 - 070221E8-C97D-4B02-96F5-B400CDF4C6E4</string>
 		</dict>
-		<key>632C5792-A181-4BBE-A364-08536C7EF205</key>
+		<key>681F8CBC-6564-4593-9D88-D416DEAB22EC</key>
 		<dict>
 			<key>from</key>
 			<string>5C825A86-0930-4497-989C-C90D2047FCD7 - 5C825A86-0930-4497-989C-C90D2047FCD7</string>
 			<key>to</key>
 			<string>D57A74AE-2B32-48A4-8B3F-19DF16545C2A - D57A74AE-2B32-48A4-8B3F-19DF16545C2A</string>
 		</dict>
-		<key>AE20D15A-3532-4F40-9BE2-6B86D0CCD1B4</key>
+		<key>90F83C41-042F-4F20-83D5-CE48FF4AAD1D</key>
 		<dict>
 			<key>from</key>
 			<string>070221E8-C97D-4B02-96F5-B400CDF4C6E4 - 070221E8-C97D-4B02-96F5-B400CDF4C6E4</string>
 			<key>to</key>
 			<string>BB9231B1-4582-4085-9CD0-57B29D27E7B2 - BB9231B1-4582-4085-9CD0-57B29D27E7B2</string>
 		</dict>
-		<key>D3DBEBDC-3140-47F8-8D22-7B835183BCD0</key>
+		<key>F8CF4061-868D-4CB9-9494-E1FB9026E77F</key>
 		<dict>
 			<key>from</key>
 			<string>D57A74AE-2B32-48A4-8B3F-19DF16545C2A - D57A74AE-2B32-48A4-8B3F-19DF16545C2A</string>
